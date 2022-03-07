@@ -1,0 +1,35 @@
+.margin-navbar {
+  padding-top: 5rem;
+}
+
+.navbar {
+  @apply absolute top-0 flex items-center w-full flex-nowrap justify-start bg-gray-100 shadow-lg py-0 h-20;
+}
+
+.navbar .nav-link {
+  @apply h-full flex items-center hover:bg-gray-200 px-5;
+}
+
+.navbar .dropdown {
+  @apply relative;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  @apply block;
+}
+
+
+.navbar .dropdown:hover .nav-link {
+  @apply bg-gray-200;
+}
+
+.navbar .dropdown .dropdown-menu {
+  @apply absolute right-0 top-full z-20;
+  @apply bg-white rounded-b-lg shadow-md;
+  @apply list-none min-w-full;
+  @apply hidden;
+}
+
+.navbar .dropdown .dropdown-menu .dropdown-item {
+  @apply bg-transparent block w-full px-6 py-3 clear-both font-normal whitespace-nowrap hover:bg-gray-100;
+}
