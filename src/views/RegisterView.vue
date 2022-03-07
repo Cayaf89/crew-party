@@ -97,7 +97,7 @@ export default {
                     this.$router.push('dashboard');
                 })
                 .catch(error => {
-                    this.errors = error.response.data.errors;
+                    this.errors = { ...this.errors, ...error.response.data.errors };
                 })
                 .finally(() => {
                     this.loading = false;
