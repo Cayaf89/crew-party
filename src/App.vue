@@ -8,7 +8,7 @@ import MenuBar from "@/components/MenuBar.vue";
         <MenuBar/>
     </header>
 
-    <div>
+    <div class="margin-navbar">
         <router-view></router-view>
     </div>
 

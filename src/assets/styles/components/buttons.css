@@ -1,0 +1,17 @@
+.btn {
+  @apply flex;
+  @apply text-base font-normal text-gray-800 text-center decoration-0 align-middle;
+  @apply cursor-pointer select-none;
+  @apply bg-transparent;
+  @apply rounded-lg;
+  @apply px-5 py-1.5;
+  @apply transition-colors transition-shadow ease-in-out;
+}
+
+.btn-primary {
+  @apply text-black bg-primary-400;
+}
+
+.btn-secondary {
+  @apply text-black bg-secondary-500;
+}

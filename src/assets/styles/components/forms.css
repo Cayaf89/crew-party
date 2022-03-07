@@ -1,0 +1,46 @@
+.form-container {
+  @apply max-w-4xl border-t-primary-400 border-t-4 shadow-xl rounded-b-xl;
+}
+
+.form-input {
+  @apply block;
+  @apply w-full px-3 py-1.5;
+  @apply text-base font-normal text-gray-800;
+  @apply bg-gray-100 bg-clip-padding border-0 appearance-none rounded-lg;
+  @apply transition-shadow transition-colors;
+}
+
+.form-input.invalid {
+  @apply bg-red-100;
+}
+
+.invalid ~ .invalid-feedback {
+  @apply block;
+}
+
+.invalid-feedback {
+  @apply hidden w-full mt-1 text-sm text-red-500;
+}
+
+input[type="checkbox"] {
+  @apply bg-gray-200 bg-no-repeat bg-center bg-contain;
+  @apply border-0 rounded appearance-none;
+  @apply mt-1 w-4 h-4;
+  @apply align-top;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
+
+input:checked {
+  @apply bg-primary-400;
+}
+
+input:checked[type="checkbox"] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+label {
+  @apply mb-2 inline-block;
+}
+
+
