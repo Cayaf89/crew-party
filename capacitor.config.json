@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Crew Party",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

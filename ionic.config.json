@@ -1,0 +1,7 @@
+{
+  "name": "Crew Party",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
