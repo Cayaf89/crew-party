@@ -2,7 +2,7 @@
     <ion-app>
         <ion-router-outlet/>
         <ion-loading
-            :is-open="$store.getters.getLoader"
+            :is-open="$store.state.loader"
         >
         </ion-loading>
     </ion-app>
