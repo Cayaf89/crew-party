@@ -19,7 +19,6 @@
     "@capacitor/preferences": "^4.0.1",
     "@capacitor/status-bar": "4.0.1",
     "@ionic/pwa-elements": "^3.1.1",
-    "@ionic/storage": "^3.0.6",
     "@ionic/vue": "^5.9.4",
     "@ionic/vue-router": "^5.9.4",
     "@vue/cli-plugin-vuex": "^5.0.8",
@@ -33,6 +32,7 @@
     "vue": "^3.2.21",
     "vue-axios": "^3.5.1",
     "vue-router": "^4.0.12",
+    "vue-upload-component": "^3.1.2",
     "vuex": "^4.0.2"
   },
   "devDependencies": {

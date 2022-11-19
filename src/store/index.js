@@ -5,5 +5,13 @@ import user from "@/store/modules/user";
 export default createStore({
     modules: {
         user: user,
+    },
+    state: {
+        loader: false
+    },
+    mutations: {
+        setLoader(state, value) {
+            state.loader = value;
+        }
     }
 })

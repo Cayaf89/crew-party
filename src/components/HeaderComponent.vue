@@ -2,12 +2,15 @@
     <ion-header>
         <ion-toolbar>
             <div class="flex items-center p-4">
-                <ion-avatar class="h-12 w-12">
-                    <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
-                         alt="Avatar" class="h-12 w-12"/>
-                </ion-avatar>
-                <ion-title class="w-full" color="primary">Crew Party</ion-title>
-                <a class="flex" href="#" @click.prevent="router.push('/login')" v-if="!$store.state.user.isAuthenticated">
+                <a class="flex" href="#" @click.prevent="router.push('/settings')">
+                    <ion-avatar class="h-12 w-12 border-2 border-primary">
+                        <img :src="$store.state.user.profile_picture"
+                             alt="Avatar"/>
+                    </ion-avatar>
+                </a>
+                <ion-title class="flex" color="primary">Crew Party</ion-title>
+                <a class="flex" href="#" @click.prevent="router.push('/login')"
+                   v-if="!$store.state.user.isAuthenticated">
                     <ion-icon class="text-primary text-4xl" src="assets/icon/log-in-outline.svg"></ion-icon>
                 </a>
             </div>

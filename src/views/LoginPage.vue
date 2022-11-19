@@ -53,7 +53,7 @@ import { useRouter } from "vue-router";
 export default defineComponent({
     name: 'LoginPage',
     components: { Divider, IonContent, IonPage, IonItem, IonLabel, IonInput, IonButton, IonCheckbox },
-    data: function () {
+    data() {
         return {
             loginEmail: '',
             loginPassword: '',
