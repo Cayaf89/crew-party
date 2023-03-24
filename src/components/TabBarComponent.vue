@@ -1,5 +1,5 @@
 <template>
-    <ion-tab-bar slot="bottom" class="border-t-[1px] border-primary py-2">
+    <ion-tab-bar slot="bottom" class="py-0 bg-white shadow-top border-0">
         <ion-tab-button tab="home" @click="router.push('/')">
             <ion-icon size="large" icon="assets/icon/house-duotone.svg" v-if="isCurrentTab('home')"/>
             <ion-icon size="large" icon="assets/icon/house.svg" v-else/>

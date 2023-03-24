@@ -22,6 +22,8 @@ module.exports = {
                 'md': '8px 8px 6px #00000029',
                 'lg': '16px 16px 6px #0000002F',
                 'xl': '18px 18px 16px #0000002F',
+                'top': '0px -5px 8px #0000002F',
+                'bottom': '0px 5px 8px #0000002F',
             },
             colors: {
                 primary: '#ee7404',
